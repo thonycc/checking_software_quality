@@ -1,3 +1,6 @@
+#This program performs the euclidian division of 2 integers and returns the quotient and the remainder.
+#It will allow us to use the error guessing technique 
+
 import unittest
 
 def div_eucl(a,b):
