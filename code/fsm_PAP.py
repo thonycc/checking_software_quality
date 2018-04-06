@@ -1,5 +1,4 @@
 from fysom import *
-import random
 
 ##========================================================================
 ## Implementation of an authentification protocol that uses a password (PAP)
