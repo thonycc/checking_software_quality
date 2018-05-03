@@ -86,7 +86,12 @@ while (x!=n) and (x!=1001):
     c=c+1
     x=int(input("Essai n°"+str(c)+" :"))
 
-"""
+if x==n:
+    print("Vous avez réussi en ",c,"essais")
+else:
+    print("Il fallait trouver ",n)
+    
 
+"""
 
 ast_visit(ast.parse(source))
