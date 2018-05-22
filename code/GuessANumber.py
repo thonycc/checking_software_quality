@@ -14,7 +14,7 @@ while (x!=n) and (x!=1001):
         print("trop petit")
     else:
         print("trop grand")
-    c=c+1
+    c+=1
     x=int(input("Essai n°"+str(c)+" :"))
 
 if x==n:
